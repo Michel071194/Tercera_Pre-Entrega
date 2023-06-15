@@ -1,0 +1,63 @@
+.carousel-inner2 {
+    height: 450px;
+    justify-content: center;
+    padding: 40px 10px 30px 10px;
+   
+   
+}
+
+.conteinerVideos {
+    background-color: black;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    border: blue solid 7px;
+}
+
+.titulosSection3{
+    font-family:"Docallisme" ;
+    font-size: 40px;
+    font-display: 42px;
+    margin-top: 30px;
+   font-stretch: expanded;
+   line-height: 55px;
+
+   @media screen and (max-width:460px) {
+    font-size: 25px;
+    
+   }
+   
+}
+
+.campeones_padre__sec3{
+    background-color: rgb(15, 120, 15);
+    height: 300px;
+    width: 1305px;
+    margin-bottom: 30px;
+    padding: 5px;
+            display: grid;
+            grid-template-columns: 35% 30% 30% ;
+            grid-template-rows: 100%;
+            grid-template-areas: 
+            "div div div";
+            &__text {
+                background-color: rgb(139, 241, 139);
+                margin-bottom: 3px;
+                padding: 10px;
+                text-align: justify;
+                font-size: 16px;
+                font-family:Arial, Helvetica, sans-serif;
+                &--title {
+                    text-align: center;
+                    background-color: rgb(139, 241, 139) ;
+                    margin-bottom: 0px;
+                }
+               
+            }
+            &__video {
+                margin-left: 10px;
+            }
+    
+    
+}
+

@@ -1,0 +1,11 @@
+.formatofooter {
+    text-align: center;
+    font-family: fantasy;
+    &--ir_a_inicio {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    &--aria_label {
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,329 @@
+@font-face {
+  font-family: "Docallisme";
+  src: url(../mi-repositorio/Fonst/DOCALLISME\ ON\ STREET.ttf);
+}
+.animacion__logo {
+  animation: pulse infinite 2.4s alternate;
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
+.titulo__header {
+  font-family: "Docallisme";
+  font-size: 50px;
+  display: flex;
+  padding: 5px;
+  font-size: 110px;
+}
+
+.nav__style {
+  justify-content: flex-end;
+  margin-right: 90px;
+}
+
+.nav:hover {
+  color: red;
+}
+
+#carouselSection {
+  width: 100%;
+}
+
+.carousel-inner {
+  height: 650px;
+}
+
+.container-fluid {
+  --bs-gutter-x: 0;
+}
+
+.conteiner__img3 {
+  width: 100%;
+  height: 650px;
+  display: inline-flex;
+}
+
+.conteiner__sec2-1 {
+  margin-top: 25px;
+}
+
+.conteiner__sec2-2 {
+  margin-top: 25px;
+}
+
+.conteiner__sec2-3 {
+  margin-top: 25px;
+}
+
+.conteiner__sec2-4 {
+  margin-top: 25px;
+}
+
+.conteiner__sec2-5 {
+  margin-top: 25px;
+}
+
+.conteiner__sec2-6 {
+  margin-top: 25px;
+}
+
+.conteiner__sec2-7 {
+  margin-top: 25px;
+}
+
+.conteiner__sec2-8 {
+  margin-top: 25px;
+}
+
+.card__altura {
+  height: 10px;
+}
+
+.equipos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-areas: "header header" "div     div" "section section" "section section" "section section" "section section";
+}
+.equipos__modelo {
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+.equipos__titulo {
+  text-align: center;
+  font-family: "Docallisme";
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+.equipos--marg_top {
+  margin-top: 50px;
+  padding: 40px;
+}
+@media screen and (max-width: 460px) {
+  .equipos {
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "div" "section" "section" "section" "section" "section" "section" "section" "section";
+    margin-top: 0%;
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 390px) {
+  .equipos {
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "div" "section" "section" "section" "section" "section" "section" "section" "section";
+    margin-top: 0%;
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+  }
+}
+
+.img__sections {
+  padding-top: 40px;
+}
+.img__sections--lakers {
+  background-color: rgb(90, 14, 128);
+}
+.img__sections--mavs {
+  background-color: rgb(16, 197, 230);
+}
+.img__sections--nuggets {
+  background-color: rgba(100, 3, 3, 0.696);
+}
+.img__sections--spurs {
+  background-color: rgba(128, 128, 128, 0.726);
+}
+.img__sections--suns {
+  background-color: rgba(255, 166, 0, 0.779);
+}
+.img__sections--okc {
+  background-color: rgb(255, 115, 0);
+}
+.img__sections--gsw {
+  background-color: rgba(0, 179, 255, 0.856);
+}
+.img__sections--memphis {
+  background-color: rgba(0, 0, 255, 0.735);
+}
+.img__sections--rokets {
+  background-color: rgba(0, 0, 0, 0.589);
+}
+
+.campeones_padre {
+  height: 1000px;
+  width: 100%;
+  padding: 15px;
+  display: flexbox;
+}
+.campeones_padre__sec1 {
+  background-color: rgb(125, 2, 2);
+  height: 300px;
+  width: 1305px;
+  margin-bottom: 30px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 35% 30% 30%;
+  grid-template-rows: 100%;
+  grid-template-areas: "div div div";
+}
+.campeones_padre__sec1__text {
+  padding: 5px;
+  text-align: justify;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.campeones_padre__sec1__video {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 460px) {
+  .campeones_padre {
+    background-color: red;
+    height: 3000px;
+    width: 460px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-areas: "section" "section" "section";
+    display: block;
+  }
+}
+.titulo__section2 {
+  font-family: "Docallisme";
+  font-size: 50px;
+  font-size: 40px;
+}
+
+.historia {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(red, rgb(42, 80, 138));
+  margin-top: 0px;
+}
+
+.fondo {
+  background-color: red;
+}
+.fondo__margin {
+  margin: 0px;
+}
+.fondo__height {
+  height: 550px;
+}
+
+.info {
+  height: 100%;
+  width: 850px;
+  background-color: white;
+  border: 15px solid blue;
+  text-align: justify;
+}
+
+.campeones_padre__sec2 {
+  background-color: white;
+  height: 300px;
+  width: 1305px;
+  margin-bottom: 30px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 35% 30% 30%;
+  grid-template-rows: 100%;
+  grid-template-areas: "div div div";
+}
+.campeones_padre__sec2__text {
+  padding: 10px;
+  text-align: justify;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.campeones_padre__sec2__text--title {
+  text-align: center;
+}
+.campeones_padre__sec2__video {
+  margin-left: 10px;
+}
+
+.carousel-inner2 {
+  height: 450px;
+  justify-content: center;
+  padding: 40px 10px 30px 10px;
+}
+
+.conteinerVideos {
+  background-color: black;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  border: blue solid 7px;
+}
+
+.titulosSection3 {
+  font-family: "Docallisme";
+  font-size: 40px;
+  font-display: 42px;
+  margin-top: 30px;
+  font-stretch: expanded;
+  line-height: 55px;
+}
+@media screen and (max-width: 460px) {
+  .titulosSection3 {
+    font-size: 25px;
+  }
+}
+
+.campeones_padre__sec3 {
+  background-color: rgb(15, 120, 15);
+  height: 300px;
+  width: 1305px;
+  margin-bottom: 30px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 35% 30% 30%;
+  grid-template-rows: 100%;
+  grid-template-areas: "div div div";
+}
+.campeones_padre__sec3__text {
+  background-color: rgb(139, 241, 139);
+  margin-bottom: 3px;
+  padding: 10px;
+  text-align: justify;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.campeones_padre__sec3__text--title {
+  text-align: center;
+  background-color: rgb(139, 241, 139);
+  margin-bottom: 0px;
+}
+.campeones_padre__sec3__video {
+  margin-left: 10px;
+}
+
+.formatofooter {
+  text-align: center;
+  font-family: fantasy;
+}
+.formatofooter--ir_a_inicio {
+  font-family: "Courier New", Courier, monospace;
+}
+.formatofooter--aria_label {
+  justify-content: center;
+}
+
+/*# sourceMappingURL=pagina.css.map */

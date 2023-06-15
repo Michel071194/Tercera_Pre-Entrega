@@ -1,0 +1,60 @@
+
+.titulo__section2 {
+    @include titulo-grande;
+    font-size: 40px;
+    
+}
+
+
+.historia {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(red, rgb(42, 80, 138));
+    margin-top: 0px;
+}
+
+.fondo {
+    background-color: red;
+    &__margin {
+        margin: 0px;
+    }
+    &__height {
+        height:550px;
+    }
+}
+
+.info {
+   height: 100%;
+   width: 850px;
+   background-color: white;
+   border: 15px solid blue;
+   text-align: justify; 
+   
+}
+
+.campeones_padre__sec2{
+    background-color: white;
+    height: 300px;
+    width: 1305px;
+    margin-bottom: 30px;
+    padding: 5px;
+        display: grid;
+        grid-template-columns: 35% 30% 30% ;
+        grid-template-rows: 100%;
+        grid-template-areas: 
+        "div div div";
+        &__text {
+            padding: 10px;
+            text-align: justify;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            &--title {
+                text-align: center;
+            }
+           
+        }
+        &__video {
+            margin-left: 10px;
+        }
+}
+

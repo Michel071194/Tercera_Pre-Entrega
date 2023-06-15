@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Docallisme";
+    src: url(../mi-repositorio/Fonst/DOCALLISME\ ON\ STREET.ttf);
+}
+
+@mixin titulo-grande {
+    font-family: "Docallisme";
+    font-size: 50px;
+}
+
+
+
+.animacion__logo {
+    animation: pulse infinite 2.4s alternate;
+    @keyframes pulse {
+        0% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+        50% {
+            -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+        }
+        100% {
+            -webkit-transform: scale(1.5);
+            transform: scale(1.5)
+        }
+    }
+}
+
+.titulo__header {
+    @include titulo-grande;
+    display: flex;
+    padding: 5px;
+    font-size: 110px;
+}
+
+.nav__style {
+    justify-content: flex-end;
+    margin-right: 90px;
+}
+
+.nav:hover {
+    color: red;
+    
+}

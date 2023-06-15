@@ -1,0 +1,215 @@
+#carouselSection{
+    width: 100%;
+
+}
+
+.carousel-inner{
+    height: 650px;
+   
+}
+
+.container-fluid{
+    --bs-gutter-x: 0;
+}
+
+.conteiner__img3 {
+    width: 100%;
+    height: 650px;
+    display: inline-flex;
+}
+
+.conteiner__sec2{
+  
+}
+
+.tamanio__cards {
+   
+}
+
+@for $i from 1 through 8{
+    .conteiner__sec2-#{$i} {
+      margin-top: 25px;
+      
+    }
+}
+   
+@for $i from 1 through 8 {
+    .tamanio__cards-#{$i}{
+        
+    }
+}
+
+.card {
+    &__altura {
+        height: 10px;
+    }
+}
+
+.equipos {
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas: 
+    "header header"
+    "div     div"
+    "section section"
+    "section section"
+    "section section"
+    "section section";
+    
+    &__modelo {
+        margin-left: 50px;
+        margin-bottom: 40px;
+        
+        
+        
+    }
+    &__titulo {
+        text-align: center;
+        font-family: "Docallisme";
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+    &--marg_top {
+        margin-top: 50px;
+        padding: 40px;
+       
+    }
+    @media screen and (max-width:460px) {
+       grid-template-columns: 100%;
+        grid-template-areas:
+        "header" 
+        "div"
+        "section"
+        "section"
+        "section"
+        "section"
+        "section"
+        "section"
+        "section"
+        "section";
+        margin-top: 0%;
+        padding: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        display: inline-block;
+
+
+        
+        
+        
+    }
+    @media screen and (max-width:390px) {
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "header"
+        "div"
+        "section"
+        "section"
+        "section"
+        "section"
+        "section"
+        "section"
+        "section"
+        "section";
+        margin-top: 0%;
+        padding: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        display: inline-block;
+        
+    }
+    
+    
+}
+
+.img__sections {
+  padding-top: 40px;
+        &--lakers {
+            background-color: rgb(90, 14, 128);
+        };
+        &--mavs {
+            background-color: rgb(16, 197, 230);
+        }
+       
+        &--nuggets {
+            background-color: rgba(100, 3, 3, 0.696);
+        }
+        &--spurs {
+            background-color: rgba(128, 128, 128, 0.726);
+        }
+        &--suns {
+            background-color: rgba(255, 166, 0, 0.779);
+        }
+        &--okc {
+            background-color: rgb(255, 115, 0);
+        }
+        &--gsw {
+            background-color: rgba(0, 179, 255, 0.856);
+        }
+        &--memphis {
+            background-color: rgba(0, 0, 255, 0.735);
+        }
+        &--rokets {
+            background-color: rgba(0, 0, 0, 0.589);
+        }  
+}
+
+.campeones_padre {
+    height:1000px;
+    width: 100%;
+    padding: 15px;
+    display: flexbox;
+    
+    
+    
+
+    &__sec1 {
+        background-color: rgb(125, 2, 2);
+        height: 300px;
+        width: 1305px;
+        margin-bottom: 30px;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 35% 30% 30% ;
+        grid-template-rows: 100%;
+        grid-template-areas: 
+        "div div div";
+        &__text {
+            padding: 5px;
+            text-align: justify;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            &--title {
+               
+            }
+           
+        }
+        &__video {
+            margin-left: 10px;
+        }
+    }   
+        
+
+        
+}
+
+@media screen and (max-width: 460px) {
+    .campeones_padre {
+        background-color: red;
+        height: 3000px;
+        width: 460px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 30% 30%;
+        grid-template-areas: 
+        "section"
+        "section"
+        "section";
+        display: block;
+    }
+    
+}
+
+
